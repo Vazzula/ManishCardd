@@ -1,40 +1,54 @@
--- ds.page: Welcome to doc-site
+-- import: fastn-community.github.io/opensans-typography as opensans
+
+-- component card:
+
+-- ftd.column:
+width.fixed.px: 500
+height.fixed.px: 650
+border-radius.px: 25
+align-content:top-center
+padding.px: 50
+background.image: https://i.pinimg.com/564x/0c/8c/1b/0c8c1ba893efe4d46a2db0d7aa0f5719.jpg
+
+-- ftd.image:
+src: https://pbs.twimg.com/media/FzyylC4aEAItxRi?format=jpg&name=medium
+width.fixed.px: 200
+height.fixed.px: 200
+border-radius.px: 200
+border-color: #111E32  
+border-width.px: 5 
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- ftd.text:Vazzula Manish 
+role: $inherited.types.heading-large
+padding-top.px: 70
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.text:Graphic Designer Extraordinaire
+role: $inherited.types.copy-regular
+padding.px: 10
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ftd.text: @proto_axis
+role: $inherited.types.copy-regular
+padding.px: 10
 
--- ds.h3: 🚀 Fast Track 
+-- ftd.text:"Kaeya, Knight of Favonius. Please, allow me to join you on your journey. Guarding you on your journey sounds far more entertaining than any of the usual Favonius stuff."
+role: $inherited.types.copy-regular
+padding-top.px: 30
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- end: ftd.column
 
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: card
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.row:
+width: fill-container
+height: fill-container
+background.solid: #111E32
+align-content: center
+types: $opensans.types
+spacing.fixed.px: 50
 
-Our all documentation sites uses this `doc-site` theme.
+-- card:
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
 
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: ftd.row
